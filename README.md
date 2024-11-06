@@ -5,7 +5,7 @@ In this project I have built an ETL(Extract, Transform, Load) pipeline using the
 The pipeline will extract data from Covid19 API, transform it into desired format and load into AWS data store using Airflow installed on Docker.
 
 ## _Architecture - End to End ETL Pipeline_
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/ChiranjeeviLakkakula/Covid19-Data-Engineering-Project-Python-Airflow/blob/main/Covid19-Airflow-Architecture.jpg)
 
 ## _About Dataset/API_
 The Covid19 collection includes APIs that provide data on new cases, deaths, and local infection rates. The data is sourced from top medical institutions and is available in JSON format. For this project I have taken the overall covid statistics across continents.
