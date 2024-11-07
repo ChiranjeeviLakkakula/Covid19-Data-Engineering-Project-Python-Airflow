@@ -31,6 +31,13 @@ API documentation - [Covid19 API](https://api-sports.io/documentation/covid-19)
 ````
 pip install pandas
 ````
+## _DAG Imports_
+````
+from datetime import datetime, timedelta
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from airflow.hooks.S3_hook import S3Hook
+````
 
 ## _Data Pipeline flow_
 
